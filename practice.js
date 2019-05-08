@@ -16,6 +16,13 @@
 
 //Code here
 
+var me = {
+  name: 'Sean',
+  age: 29,
+}
+
+me.name
+
 ////////// PROBLEM 2 //////////
 
 /*
@@ -25,6 +32,16 @@
 
 //Code here
 
+var favoriteThings = {
+  band: 'Fall Out Boy',
+  food: 'Steak',
+  person: 'Lady Gaga',
+  book: 'American Psycho',
+  movie: '500 Days of Summer',
+  holiday: 'Thanksgiving',
+
+}
+
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
@@ -32,6 +49,8 @@
 
 //Code here
 
+favoriteThings.car = 'honda'
+favoriteThings.brand = 'apple'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -39,6 +58,8 @@
 
 //Code here
 
+favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings['book'] = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,12 +71,16 @@
 */
 
 //Code here
-
+var backpack = {}
+var item = ('firstPocket')
+backpack['firstPocket']= 'chapstick'
+backpack.color = 'black'
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -85,6 +110,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name= 'Bryan G. Smith'
+user2.email= 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
